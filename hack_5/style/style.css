@@ -122,6 +122,30 @@ body {
  width: 100%;
 font-family: 'Arimo';
 font-weight: bolder;
-font-size: 150%;
+font-size: 200%;
 padding: 20px;
+}
+.row5 {
+  display: flex;
+ }
+ .imgpng {
+  margin-left: 130px;
+  margin-top: 40px;
+ }
+ .icono-lapiz {
+  width: 20px;
+  height: 2px;
+  background-color: #000;
+  transform: rotate(45deg);
+  position: relative;
+}
+.icono-lapiz::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #000;
+  position: absolute;
+  top: -5px;
+  left: -3px;
 }
