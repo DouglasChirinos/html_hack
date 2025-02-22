@@ -1,0 +1,129 @@
+/* Inicio de reseto de pagina */
+*,
+*::before,
+*::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html {
+ font-size: 16px;
+}
+
+body {
+ margin: 0;
+ padding: 0; 
+ font-family: sans-serif;
+} 
+/* Fin de reseteo de pagina*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: nowrap; /* disponer por linea cada elemento */
+    width: 100%; /* Asegurar ancho total */
+     position: relative;
+  }
+   
+  
+  .items1, .items2 , .items3, .items4 {
+     margin-left: auto;
+    margin-right: auto;
+     font-family: RUDA;
+     font-weight:  bold;
+  }
+  .items1 {
+    border-radius: 10px;
+    background-color: black;
+    width:100px;
+    height: 10px;
+    margin-top:  50px;
+    
+      }
+
+  .items2  {
+    letter-spacing: 0.2cap;
+     margin-top: 40px;
+    font-size: 180%;
+   }
+
+.items3 {
+  font-size: 750%;
+  color: #B88940;
+  font-weight: bolder;
+  letter-spacing: 0.2cap;
+  
+  } 
+  .items4 {
+    font-size: 300%;
+      }
+.items5 {
+  font-family: Catamaran;
+  letter-spacing: 0.7cap;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight:  bold;
+}
+.sub1 {
+  position: relative;
+}
+.items6  {
+  position: relative;
+  z-index: 1;
+   margin-top: 80px;
+}
+.barra1, .barra3, .barra5, .barra7 {
+
+  width: 100%;
+  height: 25PX;
+
+}
+
+.barra2, .barra4, .barra6, .barra8 {
+    width: 60%;
+    height: 25PX;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  #FFBD59;
+   
+}
+.items7  {
+  position: absolute;
+  transform: translate(-50%, -50%); /* Centra el elemento perfectamente */
+  top: 62%;  /*Ajusta la posición superior*/
+  left: 81%;
+   z-index: 2;
+  width: 100%;
+  height:200px;
+  text-align: center;
+  }
+.imagenes  {
+  display: flex;
+  flex-wrap: wrap;
+
+ }
+.imagenes .img1 {
+  padding: 10px; /* espacion de separacion de margen de las imagenes*/
+ 
+   }
+
+   .imagenes p {
+    padding: 10px; /* espacio de separion del texto del margen*/
+   
+     }
+.items8 {
+color:  #B88940;
+width: 100%;
+height: 50px;
+margin-top: 10%;
+text-align: center;
+font-weight:800;
+font-family: 'Open Sans';
+font-size:  200%;
+}
+.items9 {
+  text-align: center;
+  font-family: Catamaran;
+}
